@@ -1,0 +1,108 @@
+@font-face {
+  font-family: "Chalkboard";
+  src: url("./fonts/chalkboard.ttf") format("truetype");
+}
+
+body {
+  margin: 0;
+  font-family: "Chalkboard";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #bbefff !important;
+  background: url("./doodles-bg.svg");
+  background-position: center bottom;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  color: #ffffff !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+a {
+  color: rgba(255, 255, 255, 0.55) !important;
+  text-decoration: none !important;
+}
+
+h1,
+.stroked-font {
+  -webkit-text-stroke: 2px black !important;
+  font-weight: 800;
+}
+
+.info-font {
+  font-size: 1.9rem;
+  -webkit-text-stroke: 1px #8b7eea !important;
+  font-weight: 700;
+}
+
+.galleryContainer {
+  position: relative;
+}
+
+.galleryButton {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.galleryDate {
+  position: absolute;
+  left: 50%;
+  top: 90%;
+  transform: translate(-50%, -90%);
+  background-color: black;
+  color: white;
+  padding: 10px 50px;
+  font-size: calc(1rem + 1.5vw);
+  line-height: normal;
+  border: 2px solid white !important;
+}
+
+.btn-wl {
+  background: #80b1ff !important;
+  box-shadow: 0px 2px 0px #6d96d8 !important;
+  border-radius: 12px !important;
+  color: white !important;
+}
+
+.btn-wl:hover {
+  background: #80b1ff !important;
+  box-shadow: 0px 2px 0px #6d96d8 !important;
+  border-radius: 12px !important;
+  color: white !important;
+}
+
+.btn-wl:focus {
+  background: #80b1ff !important;
+  box-shadow: 0px 2px 0px #6d96d8 !important;
+  border-radius: 12px !important;
+  color: white !important;
+}
+
+.btn-wl:active {
+  background: #80b1ff !important;
+  box-shadow: 0px 2px 0px #6d96d8 !important;
+  border-radius: 12px !important;
+  color: white !important;
+}
+
+.btn-wl:active:focus {
+  background: #80b1ff !important;
+  box-shadow: 0px 2px 0px #6d96d8 !important;
+  border-radius: 12px !important;
+  color: white !important;
+}
+
+.mintSelect {
+  height: 52px;
+  border: 2px solid white !important;
+  background-color: black !important;
+  color: white !important;
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><path fill='none' stroke='%23FFF' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/></svg>") !important;
+}

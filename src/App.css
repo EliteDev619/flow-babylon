@@ -1,0 +1,15 @@
+
+#main-container{
+  font-family: 'chalkboard';
+}
+
+.toastNotification {
+  font-family: 'Roboto', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 12px;
+  word-wrap: break-word;
+  text-align: center;
+  
+}
+.toastNotification a {
+  color: black !important;
+}

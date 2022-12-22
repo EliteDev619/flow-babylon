@@ -1,0 +1,13 @@
+#wearables-wrapper{
+
+    #wearable-item-row{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .wearables-span{
+            margin-right: auto;
+        }
+    }
+}

@@ -1,0 +1,3 @@
+#detail-table.table>:not(caption)>*>* {
+    padding: 0.3rem 0.3rem;
+}

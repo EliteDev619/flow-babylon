@@ -1,0 +1,29 @@
+#characters-wrapper {
+  #character-wrapper {
+    #character-info-wrapper {
+      display: flex;
+      align-items: center;
+      #character-equipped-item-row {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        .equipped-span{
+          margin-right: auto !important;
+          padding-right: 1rem;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 776px) {
+    #characters-wrapper {
+      margin-bottom: 2rem;
+        #character-wrapper {
+          #character-info-wrapper {
+           flex-direction: column;
+            }
+          }
+        }
+      }
+  

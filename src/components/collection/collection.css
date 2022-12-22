@@ -1,0 +1,32 @@
+.modal-dialog .modal-content{
+    background-color: black !important;
+}
+.modal-header {
+    border-bottom: none !important;
+}
+#reveal-modal .btn-close {
+    background: transparent url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23FFF'%3e%3cpath d='M.293.293a1 1 0 011.414 0L8 6.586 14.293.293a1 1 0 111.414 1.414L9.414 8l6.293 6.293a1 1 0 01-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 01-1.414-1.414L6.586 8 .293 1.707a1 1 0 010-1.414z'/%3e%3c/svg%3e") center/1em auto no-repeat;
+}
+#cf2 {
+    position:relative;
+    margin:0 auto;
+  }
+  #cf2 img {
+    position:absolute;
+    left:0;
+    -webkit-transition: opacity 3s ease-in-out;
+    -moz-transition: opacity 3s ease-in-out;
+    -o-transition: opacity 3s ease-in-out;
+    transition: opacity 3s ease-in-out;
+  }
+  
+  #cf2 img.transparent {
+  opacity:0;
+  }
+  #cf_onclick {
+  cursor:pointer;
+  }
+  .form-control {
+      background-color: black !important;
+      color: white !important;
+  }
